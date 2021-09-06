@@ -8,7 +8,7 @@
 1. Don't cheat. If you're cheating, someone else isn't having fun. You can Google whatever you would like, but be prepared to defend your code, and please don't copy and paste. That's really it.
 2. No use of frameworks. For this challenge, let's stick to vanilla JavaScript and, if you need it for challenge section 3, HTML and CSS. 
 
-###Challenge Questions
+### Challenge Questions
 
 1. .75 points each (maximum 2 challenges allowed)
  - Given two strings, return true if they are anagrams of one another. Like elbow and below...
