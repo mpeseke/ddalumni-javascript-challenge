@@ -2,7 +2,7 @@
 
 ## Directions 
 
->Choose from the following JavaScript Challenge Questions and Solve the Problem. You can choose any of the following, adding up to seven points. You have one hour to implement your solution, and push your code back to this repository, under the /answers directory.
+>Choose from the following JavaScript Challenge Questions and Solve the Problem. You can choose any of the following, grossing up to 7 points. You have one hour to implement your solutions, and push your code back to this repository, under the /answers directory, in your own subdirectory.
 
 ## The Rules
 1. Don't cheat. If you're cheating, someone else isn't having fun. You can Google whatever you would like, but be prepared to defend your code, and please don't copy and paste. That's really it.
@@ -10,7 +10,7 @@
 
 ## Challenge Questions
 
-### .75 points each (maximum 2 challenges allowed)
+### .75 points each
  - Given two strings, return true if they are anagrams of one another. Like elbow and below...
  - FizzBuzz! Create a loop that iterates up to 100 and outputs fizz, buzz, and fizzbuzz on certain numbers and their multiples. 
  - Write a function that returns the factorial of a number.
@@ -29,3 +29,12 @@
  - Note taking app
  - Recipe app 
  - ToDo App
+
+ ## How to submit 
+
+ - Start by forking this repository.
+ - Pull down the code to your machine from your newly forked repo. 
+ - Create a subdirectory under the answers directory for your code. You can use your github username to name the subdirectory. 
+ - At the five minute mark, I'll let you know you have five minutes left, and you will create a pull request. 
+ - Push your changes to the newly forked repository on github, and then navigate to that repository to create a pull request (The option should show on your repo after you push code).
+
