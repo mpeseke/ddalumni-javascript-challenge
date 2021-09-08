@@ -3,8 +3,8 @@
 ## Directions 
 
 >Choose from the following JavaScript Challenge Questions and Solve the Problem. You can choose any of the following in any order, grossing up to 7 points. You have one hour to implement your solutions, and push your code back to this repository, under the /answers directory, under your own subdirectory.
-> ## How to submit 
 
+## How to submit 
  - Start by forking this repository.
  - Pull down the code to your machine from your newly forked repo. 
  - Create a subdirectory under the answers directory for your code. You can use your github username to name the subdirectory. 
