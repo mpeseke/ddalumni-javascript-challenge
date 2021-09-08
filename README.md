@@ -3,6 +3,13 @@
 ## Directions 
 
 >Choose from the following JavaScript Challenge Questions and Solve the Problem. You can choose any of the following in any order, grossing up to 7 points. You have one hour to implement your solutions, and push your code back to this repository, under the /answers directory, under your own subdirectory.
+> ## How to submit 
+
+ - Start by forking this repository.
+ - Pull down the code to your machine from your newly forked repo. 
+ - Create a subdirectory under the answers directory for your code. You can use your github username to name the subdirectory. 
+ - At the five minute mark, I'll let you know you have five minutes left, and you will create a pull request. 
+ - Push your changes to the newly forked repository on github, and then navigate to that repository to create a pull request (The option should show on your repo after you push code).
 
 ## The Rules
 1. Don't cheat. If you're cheating, someone else isn't having fun. You can Google whatever you would like, but be prepared to defend your code, and please don't copy and paste. That's really it.
@@ -30,11 +37,5 @@
  - Recipe app 
  - ToDo App
 
- ## How to submit 
 
- - Start by forking this repository.
- - Pull down the code to your machine from your newly forked repo. 
- - Create a subdirectory under the answers directory for your code. You can use your github username to name the subdirectory. 
- - At the five minute mark, I'll let you know you have five minutes left, and you will create a pull request. 
- - Push your changes to the newly forked repository on github, and then navigate to that repository to create a pull request (The option should show on your repo after you push code).
 
