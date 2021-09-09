@@ -5,7 +5,7 @@ for(let i = 0; i <= 100; i++){
     }else if(i%3){
         console.log('buzz');
     }else if(i%2 && i%3){
-        console.log('fizz buzz');
+        console.log('fizzbuzz');
     }
 }
 
@@ -14,14 +14,15 @@ function reverseString(word){
 }
 
 function analyzeAnagrams(word1, word2){
-    return word1 == reverseString(word);
+    console.log(word1 == reverseString(word2));
 }
 
 function factorial(number){
-    let factorial = 1;
+    let factorial = number == 0 ? 0 : 1;
     for(let i = number; i > 0; i--){
         factorial = factorial * i;
     }
+    console.log('factorial: ', factorial);
 }
 
 function httpRequest(){
