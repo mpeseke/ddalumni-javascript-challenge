@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 
 for(let i = 0; i <= 100; i++){
     if(i % 2){
@@ -26,10 +27,9 @@ function factorial(number){
 }
 
 function httpRequest(){
-    fetch('google.com')
-        .then(result =>{
-            console.log('result', result);
-        })
+    fetch('http://example.com')
+        .then(result => result.text())
+        .then(data => {console.log('data', data)})
         .catch(err =>{
             console.log('error on fetch', err);
         })
@@ -43,8 +43,6 @@ function arrayQuestionAnalyzer(arrayOfInts, index){
     arrayOfInts.splice(index, 1);
     const half1 = arrayOfInts.slice(0, index);
     const half2 = arrayOfInts.slice(index);
-    console.log('half 1', half1, 'half2', half2);
-    console.log('half 1', half1.reduce(reducer, 0), 'half2', half2.reduce(reducer, 0));
     return half1.reduce(reducer, 0 ) == half2.reduce(reducer, 0);
 }
 
@@ -64,3 +62,5 @@ function ozToLb(oz){
 }
 
 arrayQuestion([1,2,3,4,3,2,1]);
+
+httpRequest();
