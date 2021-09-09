@@ -1,12 +1,13 @@
 const fetch = require('node-fetch');
 
 for(let i = 0; i <= 100; i++){
-    if(i % 2){
+    console.log(i);
+    if(i%2 && i%3){
+        console.log('fizzbuzz');
+    }else if(i%2){
         console.log('fizz');
     }else if(i%3){
         console.log('buzz');
-    }else if(i%2 && i%3){
-        console.log('fizzbuzz');
     }
 }
 
@@ -63,4 +64,6 @@ function ozToLb(oz){
 
 arrayQuestion([1,2,3,4,3,2,1]);
 
+console.log('???')
+factorial(5);
 httpRequest();
