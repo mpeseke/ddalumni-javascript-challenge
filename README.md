@@ -2,7 +2,7 @@
 
 ## Directions 
 
->Choose from the following JavaScript Challenge Questions and Solve the Problem. You can choose any of the following in any order, grossing up to 7 points. You have one hour to implement your solutions, and push your code back to this repository, under the /answers directory, under your own subdirectory.
+>Choose from the following JavaScript Challenge Questions and Solve the Problem. You can choose any of the following in any order. You have one hour to implement your solutions, and push your code back to this repository, under the /answers directory, under your own subdirectory.
 
 ## How to submit 
  - Start by forking this repository.
