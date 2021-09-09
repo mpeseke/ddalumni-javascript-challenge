@@ -62,8 +62,10 @@ function ozToLb(oz){
     console.log(`${oz} ounces is equal to  ${oz/16} pounds`);
 }
 
-arrayQuestion([1,2,3,4,3,2,1]);
+console.log(`Answer to Array Question: ${arrayQuestion([1,2,3,4,3,2,1])}`);
 
-console.log('???')
 factorial(5);
 httpRequest();
+console.log('anagram answer:');
+analyzeAnagrams('hello', 'olleh');
+ozToLb(32);
