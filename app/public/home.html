@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>App</title>
+</head>
+
+
+<body>
+    <div id="note-taker">
+        <input type="text" id="note-field" placeholder="submit notes here"/>
+        <button id='note-taker-button'>click here to submit notes<button/>
+    </div>
+    <div id='notes'>
+
+    </div>
+</body>
+<script >
+    const notes = document.querySelector('#notes');
+    const button = document.querySelector("button");
+
+    function refreshNotes(newNotes){
+        notes.innerHTML = newNotes;
+    }
+
+    button.addEventListener('click', ()=>{
+        const noteSubmit = document.querySelector("#note-field").value;
+        console.log('note', noteSubmit)
+        fetch('http://localhost:3000/send-note', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({newNote: noteSubmit})
+        }).then(result => result.json())
+        .then(data => {console.log('result', refreshNotes(data.notes))})
+        .catch(err => {console.log('err')});
+    })
+</script>
+</html>
